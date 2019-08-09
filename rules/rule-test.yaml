@@ -1,0 +1,19 @@
+InitQuery:
+  ES:
+    Domain:
+    Index:
+  Query:
+    Type: raw
+    RawQuery: "{}"
+
+Action:
+  Module:
+    Name: VirusTotal
+    Field: hash
+    OutputPrefix: Virustotal
+
+Output:
+  Type: CorrelationEvent
+  AddFields:
+    pid: pid
+
