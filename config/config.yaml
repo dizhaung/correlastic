@@ -3,3 +3,5 @@
 CorrelationES:
   URL:
   Index:
+
+RulesDir: ../rules
