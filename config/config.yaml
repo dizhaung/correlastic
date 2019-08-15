@@ -1,7 +1,8 @@
 # Default config file
 
-CorrelationES:
+MainES:
   URL:
   Index:
+  CorrelationIndex:
 
 RulesDir: ../rules

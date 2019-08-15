@@ -1,10 +1,9 @@
 InitQuery:
-  ES:
-    Domain:
-    Index:
-  Query:
-    Type: raw
-    RawQuery: "{}"
+  Type: raw
+  Query: '{
+    "dfdf":"dfdf"
+    dfdfdf
+    }'
 
 Action:
   Module:
