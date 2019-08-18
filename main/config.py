@@ -3,7 +3,7 @@ import os
 
 
 class Config:
-    """ Contains all data from Config file """
+    """Contains all data from Config file"""
 
     def __init__(self, config_file_path):
         self.config_path = config_file_path
@@ -11,7 +11,6 @@ class Config:
 
     def __str__(self):
         return str(self.config_parsed)
-
 
     @staticmethod
     def parse_yaml(file_path):

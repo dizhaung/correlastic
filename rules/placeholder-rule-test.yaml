@@ -1,11 +1,8 @@
 InitQuery:
   Type: raw
-  Query: '{
-    "dfdf":"dfdf"
-    dfdfdf
-    }'
+  Query: '{}'
 
-Action:
+Enrich:
   Module:
     Name: VirusTotal
     Field: hash
